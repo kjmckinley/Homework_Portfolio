@@ -1,8 +1,8 @@
 # Responsive Portfolio:
 =======================
 
-In this program we are going to make a responsive portfolio using 
-Bootstrap instead of a .css file.
+This program uses Bootstrap to manipulate and format an interactive 
+user page without a separate css file.
 
 * Create 3 .html files labled 'index', 'contacts' and 'portfolio.'
  
