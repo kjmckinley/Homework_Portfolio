@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Responsive Portfolio</title>
+
+  <!-- Allowing CSS to Access Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <!-- Container Div -->
+  <div class = "container">
+
+    <!-- Basic Navbar-->
+    <nav class = "navbar navbar-expand-lg navbar-light bg-light">
+
+      <!-- We will put our own name in the navbar brand/logo -->
+      <a class = "navbar-brand" href="C:\Users\kjmck\Coding-Boot-Camp-Homework\02-KJM-Responsive-Portfolio\contacts.html">Kyle McKinley</a>
+      <button class = "navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class = "navbar-toggler-icon"></span>
+      </button>
+
+        <!-- Collapsible button -->
+      <div class = "collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class = "navbar-nav ml-auto">
+
+          <!-- create 3 different links in the navbar -->
+          <li class = "nav-item active">
+            <a class = "nav-link" href="C:\Users\kjmck\Coding-Boot-Camp-Homework\02-KJM-Responsive-Portfolio\contacts.html">Contacts <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class = "nav-item">
+            <a class = "nav-link" href="C:\Users\kjmck\Coding-Boot-Camp-Homework\02-KJM-Responsive-Portfolio\portfolio.html">Portfolio</a>
+          </li>
+
+          <li class = "nav-item">
+            <a class = "nav-link" href="C:\Users\kjmck\Coding-Boot-Camp-Homework\02-KJM-Responsive-Portfolio\index.html">About</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Jumbotron element to contain and size content -->
+    <div class = "jumbotron">
+
+      <!-- leftward text -->
+      <h2 class = "text-left"><strong>Contact Info</strong></h2>
+
+
+        <!--collect user information-->
+      <form action = "/cgi-bin/hello_get.cgi" method = "get">
+        Name:
+        <br>
+        <!--make words inside textbox transparent-->
+        <textarea style="color:rgba(0, 0, 0, .5);" rows = "1" cols = "60" name = "description">Name
+        </textarea>
+        <br>
+        Email:
+        <br>
+        <textarea style="color:rgba(0, 0, 0, .5);" rows = "1" cols = "60" name = "description">Email
+        </textarea>
+        <br>
+        Message:
+        <br>
+        <textarea style ="color:rgba(0, 0, 0, .5);" rows = "5" cols = "60" name = "description">Message</textarea>
+        <br>
+
+        <input type = "submit" value = "Submit" />
+     </form>
+
+    </div>
+
+</body>
+
+</html>
